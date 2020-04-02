@@ -1,0 +1,124 @@
+body {
+  text-align: center;
+  font-size: 15px;
+  font-family: 'Poppins', sans-serif;
+  background-color: #F5F5F5;
+  font-weight: 400;
+  position:absolute;
+  width: 1440px;
+}
+
+h1 {
+  color: #393e46;
+  line-height: 1.5;
+  font-weight: 200;
+  padding-top: 50px;
+  margin-bottom: 2rem;
+}
+
+h4{
+  color: #C0C0C0;
+  margin:20px auto 50px;
+  width: 30%;
+
+}
+.title-2 {
+  font-weight: 600;
+  color: black;
+
+}
+
+/* .boxes {
+  width: 25%;
+  border-radius: 8px;
+  background: white;
+  border-width: 1px;
+  box-shadow:2px 2px 2px 0 rgba(0, 0, 0, 0.5);
+  height: 8rem;
+  position:relative;
+
+}
+*/
+.supervisor{
+  position: relative;
+  right: 20%;
+  top:6.75rem;
+  border-top-color: Red;
+  margin: 20px auto 20px auto;
+  width: 15%;
+  border-radius: 8px;
+  background: white;
+  border-width: 1px;
+
+  box-shadow:2px 2px 2px 0 rgba(0, 0, 0, 0.5);
+  height: 10rem;
+  text-align: left;
+  line-height: 1;
+  padding:20px;
+}
+
+.img-supervisor{
+  float:right;
+  padding-right: 10px;
+}
+
+.builder{
+  position: relative;
+  bottom:13.5rem;
+  margin: 20px auto 20px auto;
+  width: 15%;
+  border-radius: 8px;
+  background: white;
+  border-width: 1px;
+  box-shadow:2px 2px 2px 0 rgba(0, 0, 0, 0.5);
+  height: 10rem;
+  text-align: left;
+  line-height: 1;
+  padding:20px;
+}
+
+.img-builder {
+  float:right;
+  padding-right: 10px;
+}
+
+.calculator{
+  position: relative;
+  bottom:34.5rem;
+  left: 20%;
+  margin: 20px auto 20px auto;
+  width: 15%;
+  border-radius: 8px;
+  background: white;
+  border-width: 1px;
+  box-shadow:2px 2px 2px 0 rgba(0, 0, 0, 0.5);
+  height: 10rem;
+  text-align: left;
+  line-height: 1;
+  padding:20px;
+}
+
+.img-calculator {
+  float:right;
+  padding-right: 10px;
+}
+
+.karma{
+  position: relative;
+  bottom:12.69rem;
+  margin: 20px auto 20px auto;
+  width: 15%;
+  border-radius: 8px;
+  background: white;
+  border-width: 1px;
+  box-shadow:2px 2px 2px 0 rgba(0, 0, 0, 0.5);
+  height: 10rem;
+  text-align: left;
+  line-height: 1;
+  padding:20px;
+}
+
+.img-karma {
+  float:right;
+  padding-right: 10px;
+}

@@ -1,0 +1,164 @@
+body {
+  background-color: #fafafa;
+  margin:0;
+  text-align: center;
+  color: #4d4646;
+  font-family: 'Baskervville', serif;
+  font-size: 1em;
+
+}
+
+
+
+h1{
+  margin: 50px auto 0 auto;
+  font-family: 'Dancing Script', cursive;
+  font-size: 5.625rem;
+  color:#a2d5f2;
+
+}
+
+h2{
+  font-family: 'Raleway', sans-serif;
+  font-size: 2.5rem;
+  color:#07689f;
+  font-weight: normal;
+  }
+
+h3{
+  font-family: 'Raleway', sans-serif;
+  color:#ff7e67;
+}
+
+a {
+  color:#e3f6f5;
+
+  font-family: 'Raleway', sans-serif;
+  text-decoration: none;
+}
+
+hr{
+    border-style: none;
+    border-top-style: dotted;
+    border-width: 5px;
+    width: 5%;
+    border-color:#a2d5f2;
+    line-height: normal;
+    margin-top:75px;
+    margin-bottom:75px;
+}
+
+p {
+  line-height: 2;
+}
+
+.pro {
+  text-decoration: underline;
+  color: #e3f6f5;
+}
+
+
+.top-container {
+  background-color: #07689f;
+  position: relative;
+  padding-top: 200px;
+}
+
+.middle-container {
+  padding: 10px 0;
+}
+
+.bottom-cloud {
+  position: absolute;
+  left: 300px;
+  bottom: 275px;
+  }
+
+.top-cloud {
+  position: absolute;
+  right: 300px;
+  top: 150px;
+}
+.skill-image{
+  border-radius: 100%;
+  width: 25%;
+  float: left;
+  margin-right: 30px;
+}
+
+.skill-image2{
+  width: 25%;
+  float: right;
+  margin-right: 30px;
+}
+
+.profile-pic{
+  border-radius: 100%;
+  width: 300px;
+  height: 300px;
+}
+
+.skill-row{
+    width: 50%;
+    margin: 100px auto 100px auto;
+    text-align: left;
+    line-height: 2;
+}
+
+
+.contact-me {
+  width: 50%;
+  margin: 100px auto 100px auto;
+  text-align: center;
+  line-height: 2;
+}
+
+.profile {
+  width: 50%;
+  margin: 100px auto 100px auto;
+  line-height: 2;
+}
+
+.programer {
+  color:#a2d5f2;
+}
+
+.bottom-container{
+  background-color: #ff7e67;
+  padding: 50px 0 20px;
+
+  font-size: 1.5rem;
+  padding-bottom: 10px;
+}
+.ErnestoPoleo {
+  font-weight: bold;
+  margin: 35px;
+  padding-top: 20px;
+  font-size: 0.75rem;
+}
+
+.footer-link {
+  margin: 2rem;
+  position: relative;
+  top:20px;
+
+  }
+.footer-link:hover {
+  color: #4d4646;
+  text-decoration: underline;
+  font-weight: bold;
+}
+  .btn {
+    color: #d9faff;
+    background-color: #005792;
+    margin-top: 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 20px;
+    display: inline-block;
+    padding: 10px 20px;
+  }
+
+.btn:hover{
+  background-color: #ff7e67;
+}

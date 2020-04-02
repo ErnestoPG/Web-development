@@ -1,0 +1,191 @@
+body {
+  font-family: 'Montserrat', sans-serif;
+  text-align: center;
+  }
+
+h1,h2,h3,h4,h5,h6 {
+  font-weight: 900;
+}
+
+p {
+  color: #8f8f8f;
+}
+
+/* Sections Headings */
+
+.section-heading {
+  line-height: 1.5;
+  font-size: 3rem;
+}
+
+.big-heading {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 900;
+  font-size: 3.5rem;
+  line-height: 1.5;
+}
+
+/* Containers */
+
+.container-fluid {
+  padding: 7% 15%;
+}
+
+/* Sections */
+
+.colored-section{
+  background-color: #ff4c68;
+  color: #FFFDFF;
+}
+
+.white-section{
+  background-color: #FFFDFF;
+}
+
+/* Navigation Bar */
+.navbar-brand {
+  font-size: 2.5rem;
+  font-family: 'Ubuntu';
+  font-weight: bold;
+}
+
+.navbar {
+  padding: 0 0 4.5rem;
+}
+
+.nav-item {
+  padding: 0 18px;
+}
+
+.nav-link {
+  font-size: 1.2rem;
+  font-family: 'Montserrat';
+  font-weight: normal;
+}
+
+
+/* Title Section*/
+
+#title .container-fluid {
+  padding: 3% 15% 7%;
+  text-align: left;
+}
+
+/* El navbar-brand (logo) viene con 1rem de margen empujando a la izquierda
+hay que ponerle entonces al texto 1rem hacia el otro lado para emparejar
+
+.title1 {
+  padding: 4.5rem 1rem;
+}*/
+/* Para rotar una imagen se utiliza el transform y va de 90 para la derecha */
+
+
+
+
+/* Buttom Download */
+
+.download-btn {
+  margin: 5% 3% 5% 0;
+}
+
+/* Image title, width y el max es para hacerla responsive
+siempre con el max en 100 y el height en auto */
+
+.img-iphone {
+  width: 60%;
+  height: auto;
+  transform: rotate(25deg);
+  position: absolute;
+  right: 30%;
+}
+
+/* Features */
+
+#features {
+  position: relative;
+}
+
+.feature-title {
+  font-size: 1.5rem;
+}
+
+/* Text Features */
+
+.feature-box {
+  padding: 5%;
+}
+
+/* Los logos del Features, con su hover para cambiarle el color */
+
+.feat-ico {
+  margin-bottom: 1rem;
+  color: #ef8172;
+}
+
+.feat-ico:hover {
+  color: #ff4c68;
+}
+
+/* Testimonials Carousel */
+
+#testimonials {
+  background-color: #ef8172;
+  }
+
+.testimonial-text{
+  line-height: 1.5;
+  font-size: 3rem;
+}
+
+.testimonial-image {
+  border-radius: 100%;
+  margin: 20px;
+  width: 20%;
+}
+
+/* Press Section */
+
+#press {
+  background-color: #ef8172;
+  padding-bottom: 3%;
+}
+
+.press-img {
+  width: 10%;
+  margin: 20px 20px 50px;
+}
+
+/* Pricing section */
+
+#pricing {
+  padding: 100px;
+}
+
+.price-text{
+  line-height: 1.5;
+  font-size: 3rem;
+}
+.pricing-col {
+  padding: 3% 2%;
+}
+
+/* Social Icons */
+
+.social-icons {
+  margin: 20px 10px;
+}
+
+/* MediaQuery */
+/* Los media query son como condicionales, en este caso, cuando pase por debajo de los 1028px del tama;o de
+laptop, aplica todo lo que esta dentro. */
+@media (max-width:1028px) {
+
+  #title {
+    text-align: center;
+  }
+
+  .img-iphone {
+    position: static;
+    transform: rotate(0);
+  }
+}
